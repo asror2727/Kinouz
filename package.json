@@ -1,0 +1,13 @@
+{
+  "name": "kino-bot",
+  "version": "1.0.0",
+  "description": "Telegram kino bot with MongoDB, subscription checks, premium, admin panel and saved movies",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
